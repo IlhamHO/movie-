@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+<form th:action="@{index}" method="get"></form>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" th:href="@{index}">Movies List<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{form}">Add New Movie</a>
+                </li>
+            </ul>
+        </div>
+        <form class="d-flex input-group w-auto" th:action="@{index}" method="get"></form>
+    </div>
+</nav>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h1>Movies</h1>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="text-white bg-dark">ID</th>
+                <th class="text-white bg-dark">NAME</th>
+                <th class="text-white bg-dark">SUMMARY</th>
+                <th class="text-white bg-dark">DATE</th>
+                <th class="text-white bg-dark">ACTORS</th>
+                <th class="text-white bg-dark">AUTHORS</th>
+                <th class="text-white bg-dark"></th>
+                <th class="text-white bg-dark"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="m : ${moviesList}">
+                <td class="fw-bolder" th:text="${m.id}"></td>
+                <td class="fw-bolder" th:text="${m.name}"></td>
+                <td th:text="${m.summary}"></td>
+                <td th:text="${m.date}"></td>
+                <td th:text="${m.actors}"></td>
+                <td th:text="${m.authors}"></td>
+                <td><a th:href="@{edit(id=${m.id})}"><i class="bi bi-pencil-square"></i></a></td>
+                <td><a onclick="return confirm('Are you sure you want to delete this movie?')" th:href="@{delete(id=${m.id})}"><i class="bi bi-trash3-fill"></i></a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

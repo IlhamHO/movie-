@@ -1,0 +1,107 @@
+2022-06-14 13:24:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "INSERT INTO MOVIE (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"
+Syntax error in SQL statement "INSERT INTO MOVIE (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"; SQL statement:
+INSERT INTO MOVIE (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.') [42000-212]
+2022-06-14 13:25:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"
+Syntax error in SQL statement "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"; SQL statement:
+INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.') [42000-212]
+2022-06-14 13:25:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"
+Syntax error in SQL statement "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"; SQL statement:
+INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.') [42000-212]
+2022-06-14 13:28:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers','The Northman',2022,'Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"
+Syntax error in SQL statement "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers','The Northman',2022,'Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"; SQL statement:
+INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers','The Northman',2022,'Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.') [42000-212]
+2022-06-14 13:28:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers','The Northman',2022,'Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"
+Syntax error in SQL statement "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers','The Northman',2022,'Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"; SQL statement:
+INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers','The Northman',2022,'Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.') [42000-212]
+2022-06-14 13:30:18 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"
+Syntax error in SQL statement "INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"; SQL statement:
+INSERT INTO MOVIE  VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.') [42000-212]
+2022-06-14 13:34:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "INSERT INTO MOVIE (ID,ACTORS,AUTHORS,DATE,NAME,SUMMARY) VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman MOVIE ,'[*]Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.')"; attendu "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO MOVIE (ID,ACTORS,AUTHORS,DATE,NAME,SUMMARY) VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman MOVIE ,'[*]Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.')"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO MOVIE (ID,ACTORS,AUTHORS,DATE,NAME,SUMMARY) VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman MOVIE ,'Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.') [42001-212]
+2022-06-14 13:35:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "INSERT INTO MOVIE (ID,ACTORS,AUTHORS,DATE,NAME,SUMMARY) VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman MOVIE','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"
+Syntax error in SQL statement "INSERT INTO MOVIE (ID,ACTORS,AUTHORS,DATE,NAME,SUMMARY) VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman MOVIE','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.[*]')"; SQL statement:
+INSERT INTO MOVIE (ID,ACTORS,AUTHORS,DATE,NAME,SUMMARY) VALUES (1,'Alexander Skarsgård, Nicole Kidman, Claes Bang','Robert Eggers',2022,'The Northman MOVIE','Le jeune prince Amleth vient tout juste de devenir un homme quand son père est brutalement assassiné par son oncle qui s'empare alors de la mère du garçon. Amleth fuit son royaume insulaire en barque, en jurant de se venger.') [42000-212]
+2022-06-14 19:22:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Schéma "HYBERNET" non trouvé
+Schema "HYBERNET" not found; SQL statement:
+ALTER SEQUENCE Hybernet.movie RESTART WITH 1 [90079-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:632)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getSchema(Parser.java:1052)
+	at org.h2.command.Parser.getSchema(Parser.java:1058)
+	at org.h2.command.Parser.parseAlterSequence(Parser.java:7714)
+	at org.h2.command.Parser.parseAlter(Parser.java:7530)
+	at org.h2.command.Parser.parsePrepared(Parser.java:747)
+	at org.h2.command.Parser.parse(Parser.java:691)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:568)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1339)
+	at org.h2.server.web.WebApp.query(WebApp.java:1137)
+	at org.h2.server.web.WebApp.query(WebApp.java:1113)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-14 19:24:15 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOLIDAY" non trouvée
+Table "HOLIDAY" not found; SQL statement:
+UPDATE HOLIDAY SET ID = 2 WHERE ID = 65 [42102-212]
+2022-06-16 11:20:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "SUMMARY CHARACTER VARYING(255)": "U&'1898, Nord-Ouest du Canada. Alors que des milliers d\\2019aventuriers arpenten... (266)"
+Value too long for column "SUMMARY CHARACTER VARYING(255)": "U&'1898, Nord-Ouest du Canada. Alors que des milliers d\\2019aventuriers arpenten... (266)"; SQL statement:
+insert into movie (actors, authors, date, name, summary, id) values (?, ?, ?, ?, ?, ?) [22001-212]
+2022-06-16 11:21:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "SUMMARY CHARACTER VARYING(255)": "U&'1898, Nord-Ouest du Canada. Alors que des milliers d\\2019aventuriers arpenten... (266)"
+Value too long for column "SUMMARY CHARACTER VARYING(255)": "U&'1898, Nord-Ouest du Canada. Alors que des milliers d\\2019aventuriers arpenten... (266)"; SQL statement:
+insert into movie (actors, authors, date, name, summary, id) values (?, ?, ?, ?, ?, ?) [22001-212]
