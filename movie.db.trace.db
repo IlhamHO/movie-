@@ -105,3 +105,7 @@ insert into movie (actors, authors, date, name, summary, id) values (?, ?, ?, ?,
 org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "SUMMARY CHARACTER VARYING(255)": "U&'1898, Nord-Ouest du Canada. Alors que des milliers d\\2019aventuriers arpenten... (266)"
 Value too long for column "SUMMARY CHARACTER VARYING(255)": "U&'1898, Nord-Ouest du Canada. Alors que des milliers d\\2019aventuriers arpenten... (266)"; SQL statement:
 insert into movie (actors, authors, date, name, summary, id) values (?, ?, ?, ?, ?, ?) [22001-212]
+2022-06-21 18:43:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "DROP [*]HIBERNATE_SEQUENCE"; attendu "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP [*]HIBERNATE_SEQUENCE"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP HIBERNATE_SEQUENCE [42001-212]
